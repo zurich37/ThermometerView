@@ -1,0 +1,12 @@
+<resources>
+    <declare-styleable name="ThermometerView">
+        <attr name="radius" format="dimension" />
+        <attr name="maxLength" format="dimension" />
+        <attr name="showNumber" format="boolean"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="textBold" format="boolean"/>
+        <attr name="startColor" format="color"/>
+        <attr name="endColor" format="color"/>
+        <attr name="textColor" format="color"/>
+    </declare-styleable>
+</resources>
