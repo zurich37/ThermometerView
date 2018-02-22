@@ -14,6 +14,6 @@ public class MainActivity extends AppCompatActivity {
 
         ThermometerView thermometerView = findViewById(R.id.thermometer_view);
         thermometerView.setMax(100);
-        thermometerView.setProgress(20.2f);
+        thermometerView.setProgress(66.6f);
     }
 }

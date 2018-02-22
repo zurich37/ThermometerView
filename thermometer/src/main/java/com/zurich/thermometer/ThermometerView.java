@@ -82,16 +82,18 @@ public class ThermometerView extends View {
     /**
      * 设置进度
      * 最大值设置{@link #setMax(int)}
+     *
      * @param progress 实际的温度
      */
     public void setProgress(float progress) {
         numberText = progress + "°C";
-        progressWidth = progress <= maxValue ? progress : maxValue / (float) maxValue * maxLength;
+        progressWidth = (progress <= maxValue ? progress : (float) maxValue) / (float) maxValue * maxLength;
         postInvalidate();
     }
 
     /**
      * 设置进度最大值
+     *
      * @param maxValue 最大温度值，默认为100
      */
     public void setMax(int maxValue) {
