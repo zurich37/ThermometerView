@@ -4,9 +4,10 @@ This is a custom thermometer view, you can set the progress, the maximum tempera
 
 ## Screenshots  
 <img src="https://github.com/zurich37/ThermometerView/blob/master/screenshots/001.jpeg"/>  
+
 ##Usage  
 
-#####1.Add as a dependency to your build.gradle:
+#####1.Add as a dependency to your build.gradle:  
 
 ```
 dependencies {  
@@ -14,7 +15,7 @@ dependencies {
 }
 ```
 
-#####2.Add the ``com.zurich.thermometer.ThermometerView`` to your layout XML file.
+#####2.Add the ``com.zurich.thermometer.ThermometerView`` to your layout XML file.  
 
 ```
 <com.zurich.thermometer.ThermometerView
