@@ -1,10 +1,11 @@
 # ThermometerView 
-[![Build Status](http://img.shields.io/badge/release-1.0.1-1a3fd00.svg)](https://travis-ci.org/zurich37/ThermometerView)  <img src="http://img.shields.io/travis/zurich37/ThermometerView.svg"/>  
+[![Build Status](http://img.shields.io/badge/release-1.0.1-33af70b.svg)](https://travis-ci.org/zurich37/ThermometerView)  <img src="http://img.shields.io/travis/zurich37/ThermometerView.svg"/>  
 This is a custom thermometer view, you can set the progress, the maximum temperature.
 
 ## Screenshots  
 <img src="https://github.com/zurich37/ThermometerView/blob/master/screenshots/001.jpeg"/>  
 ##Usage  
+
 #####1.Add as a dependency to your build.gradle:
 
 ```
