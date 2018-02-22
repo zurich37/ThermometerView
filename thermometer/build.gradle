@@ -39,9 +39,9 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:2.2.2'
 }
 
-def siteUrl = 'https://github.com/AlanCheen/CrashCatcher'   // 项目的主页
-def gitUrl = 'git@github.com:AlanCheen/CrashCatcher.git'   // Git仓库的url
-group = "yifeiyuan.library.crashcatcher"            // Maven Group ID for the artifact，一般填你唯一的包名
+def siteUrl = 'https://github.com/zurich37/ThermometerView'   // 项目的主页
+def gitUrl = 'https://github.com/zurich37/ThermometerView.git'   // Git仓库的url
+group = "com.zurich.thermometer"            // Maven Group ID for the artifact，一般填你唯一的包名
 install {
     repositories.mavenInstaller {
         // This generates POM.xml with proper parameters
@@ -49,7 +49,7 @@ install {
             project {
                 packaging 'aar'
                 // Add your description here
-                name 'Android CrashCatcher'     //项目的描述 你可以多写一点
+                name 'ThermometerView'     //项目的描述 你可以多写一点
                 url siteUrl
                 // Set your license
                 licenses {
@@ -60,9 +60,9 @@ install {
                 }
                 developers {
                     developer {
-                        id 'alancheen'      //填写的一些基本信息
-                        name '程序亦非猿'
-                        email 'alancheen06@gmail.com'
+                        id 'zurich37'      //填写的一些基本信息
+                        name 'zurich37'
+                        email 'zurichplusl@gmail.com'
                     }
                 }
                 scm {

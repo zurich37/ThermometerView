@@ -26,3 +26,5 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+tasks.getByPath(":thermometer:javadoc").enabled = false
