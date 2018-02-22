@@ -12,7 +12,7 @@ import android.util.AttributeSet;
 import android.view.View;
 
 /**
- * ·ÂÎÂ¶È¼ÆView
+ * ä»¿æ¸©åº¦è®¡View
  *
  * @author weixinfei
  * @date 2018/2/9
@@ -24,7 +24,7 @@ public class ThermometerView extends View {
 
     private Paint progressPaint;
     private boolean showNumber;
-    private String numberText = "0¡ãC";
+    private String numberText = "0Â°C";
     private int textSize;
     private LinearGradient linearGradient;
 
@@ -34,7 +34,7 @@ public class ThermometerView extends View {
     private int endColor;
     private int textColor;
     /**
-     * ÎÂ¶È×î´óÖµ£¬Ä¬ÈÏÎª100
+     * æ¸©åº¦æœ€å¤§å€¼ï¼Œé»˜è®¤ä¸º100
      */
     private int maxValue = 100;
 
@@ -80,19 +80,19 @@ public class ThermometerView extends View {
     }
 
     /**
-     * ÉèÖÃ½ø¶È
-     * ×î´óÖµÉèÖÃ{@link #setMax(int)}
-     * @param progress Êµ¼ÊµÄÎÂ¶È
+     * è®¾ç½®è¿›åº¦
+     * æœ€å¤§å€¼è®¾ç½®{@link #setMax(int)}
+     * @param progress å®žé™…çš„æ¸©åº¦
      */
     public void setProgress(float progress) {
-        numberText = progress + "¡ãC";
+        numberText = progress + "Â°C";
         progressWidth = progress <= maxValue ? progress : maxValue / (float) maxValue * maxLength;
         postInvalidate();
     }
 
     /**
-     * ÉèÖÃ½ø¶È×î´óÖµ
-     * @param maxValue ×î´óÎÂ¶ÈÖµ£¬Ä¬ÈÏÎª100
+     * è®¾ç½®è¿›åº¦æœ€å¤§å€¼
+     * @param maxValue æœ€å¤§æ¸©åº¦å€¼ï¼Œé»˜è®¤ä¸º100
      */
     public void setMax(int maxValue) {
         this.maxValue = maxValue;

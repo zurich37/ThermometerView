@@ -9,7 +9,7 @@
 
     <com.zurich.thermometer.ThermometerView
         android:id="@+id/thermometer_view"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
